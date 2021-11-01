@@ -9,9 +9,6 @@ before_install:
   - echo "start creating"
   - docker build -t pianist5555/docker-react-app -f Dockerfile.dev .
 
-    #script:
-    #- docker run -e CI=true pianist5555/docker-react-app 
-
 deploy:
   provider: elasticbeanstalk
   region: "ap-northeast-2"
