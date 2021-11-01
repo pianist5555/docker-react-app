@@ -1,4 +1,4 @@
 # docker-react-app
-docker + CI/CD
+docker-compose + CI/CD
 
 Travis CI 사용
